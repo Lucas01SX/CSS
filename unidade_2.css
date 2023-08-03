@@ -1,0 +1,30 @@
+/* -- * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */ 
+
+html {
+    font-size: 10px;
+}
+
+#pai {
+    width: 500px;
+    height: 150px;
+
+    background: #ddd;
+   font-size: 15px;
+   padding: 2em;
+   /* border-radius: 2em; */ 
+}
+
+#filho {
+    /* font-size: 30px; */
+    /* font-size: 1.2em; */ 
+    font-size: 2em;
+    /* margin-top: 10%; */
+    margin-top: 10em;
+}
+
+
+/*  em, rem, px, %, vw, vh  */

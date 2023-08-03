@@ -1,0 +1,9 @@
+div {
+    width: 250px;
+    height: 250px;
+
+    /* background: linear-gradient( to right,  #f33, #333); */
+    /* background: linear-gradient( to top,  #f33, #333); */
+    /* background: linear-gradient( 45deg,  #f33, #333, blue, green); */
+    background: linear-gradient( to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}

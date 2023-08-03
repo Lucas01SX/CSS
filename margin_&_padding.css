@@ -1,0 +1,15 @@
+.red{
+    border: 5px solid #f33;
+    /* padding: 20px 100px 30px 50px;*/
+    padding-top: 80px;
+
+}
+
+.gray{
+    border: 5px solid blue;
+    /* margin: 20px 100px 30px 50px; */
+    margin-top: 42px;
+    margin-right: 25px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}

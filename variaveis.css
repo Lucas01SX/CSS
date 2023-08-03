@@ -1,0 +1,28 @@
+:root {
+    --corTexto: green;
+    --fonteTítulo: 3em;
+    --corDiv: #555;
+    --p10: 10px;
+    --m10: 10px;
+}
+
+div {
+    width: 250px;
+    height: 250px; 
+
+    background: var(--corDiv);
+    margin-top: var(--m10);
+}
+
+p {
+    color: var(--corTexto);
+}
+
+h1 {
+    color: var(--corTexto);
+    font-size: var(--fonteTítulo);
+}
+
+.box-01 {
+    padding: var(--p10);
+}

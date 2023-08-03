@@ -1,0 +1,16 @@
+.red{
+    border: 5px solid #f33;
+    border-radius: 20px;
+
+    width: 100px;
+    height: 100px;
+}
+
+.gray{
+    border: 5px double #555;
+    border-radius: 200px;
+
+    width: 200px;
+    height: 300px;
+
+}

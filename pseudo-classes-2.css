@@ -1,0 +1,32 @@
+form {
+    width: 500px;
+    height: 150px;
+    padding: 2em;
+
+    background: #e2e2e2;
+}
+
+input {
+    outline: 0;
+    padding: 6px;
+}
+
+input:not([type="email"]) {
+   border: 2px solid #f33;     
+}
+
+input[type="email"] {
+    border-radius: 20px;
+}
+
+ul li:first-child {
+    color: brown;
+}
+
+ul li:last-child {
+    color: #f33;
+}
+
+ul li:nth-child(3) {
+    color: rgb(20, 200, 255);
+}

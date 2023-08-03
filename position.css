@@ -1,0 +1,13 @@
+div { 
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    background: #f33;
+}
+
+.blue {
+    background: blue;
+    position: absolute;
+    top: 300px;
+    right: 200px;
+}
