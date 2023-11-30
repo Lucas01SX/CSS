@@ -1,0 +1,34 @@
+$laranja-hcode: #ff760c;
+$laranja-hcode-transparente: rgba($laranja-hcode, .45);
+$background-color: #0000ff;
+:root {
+    --laranja-hcode: #ff760c;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: $background-color;
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: var(--laranja-hcode); */
+        background-color: $laranja-hcode;
+        height: 100px;
+        /* --laranja-hcode: #ff0000; */
+        $laranja-hcode: #ff0000;
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            background-color: #fff;
+            padding: 20px;
+            /* color: var(--laranja-hcode); */
+            color: $laranja-hcode;
+        }
+    }
+    section {
+        background-color: $laranja-hcode-transparente;
+        height: calc(100vh - 200px);
+    }
+}

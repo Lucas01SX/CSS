@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hcode.com.br</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 80vw;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        figure {
+            width: 200px;
+            text-align: center;
+            border: #000 1px solid;
+            padding: 4px;
+            box-shadow: 2px 10px 10px #ccc;
+        }
+        img {
+            width: 100%;
+            height: 200px;
+        }
+        .fill {
+            object-fit: fill;
+        }
+        .contain {
+            object-fit: contain;
+        }
+        .cover {
+            object-fit: cover;
+        }
+        .scale-down {
+            object-fit: scale-down;
+        }
+        .none {
+            object-fit: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <figure>
+            <img src="./img/sea.jpg" alt="Oceano" class="fill">
+            <figcaption>Está imagem é para quem gosta de praia.
+                Objecti:fill
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="./img/sea.jpg" alt="Oceano" class="contain">
+            <figcaption>Está imagem é para quem gosta de praia.
+                Objecti:contain
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="./img/sea.jpg" alt="Oceano" class="cover">
+            <figcaption>Está imagem é para quem gosta de praia.
+                Objecti:cover
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="./img/sea.jpg" alt="Oceano" class="scale-down">
+            <figcaption>Está imagem é para quem gosta de praia.
+                Objecti:scale-down
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="./img/sea.jpg" alt="Oceano" class="none">
+            <figcaption>Está imagem é para quem gosta de praia.
+                Objecti:none
+            </figcaption>
+        </figure>
+    </div>
+
+</body>
+</html>

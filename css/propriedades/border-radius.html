@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hcode.com.br</title>
+    <style type="text/css">
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #c33;
+        }
+        /* 
+       #card {
+            width: 654px;
+            height: 500px;
+            background-color: #fbc531;
+            border-color: #e1b12c;
+            border-width: 20px;
+            border-style: dashed;
+            border-radius: 25px 40px 25px 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+        */
+
+        .coracao {
+            position: relative;
+            /* border: solid 1px #000; */
+            width: 100px;
+            height: 90px;
+        }
+
+        /*         
+        .coracao:after {
+        content: 'Hcode';
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #fff;
+        width: 50px;
+        height: 90px;
+        }
+        .coracao::before {
+            content: 'Hcode';
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            width: 50px;
+            height: 90px;
+        }
+        .real::before {
+            content: 'R$';
+        }
+        .dolar::after {
+            content: '$';
+        } 
+        */
+
+        .coracao::after,
+        .coracao::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50px;
+            width: 50px;
+            height: 80px;
+            background-color: #fff;
+            border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
+        .coracao::after {
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <!-- <div id="card"></div> -->
+
+    <div class="coracao"></div>
+
+    <!--     
+        <div class="real">50,00</div>
+
+        <div class="dolar">10,00</div> 
+    -->
+</body>
+</html>
